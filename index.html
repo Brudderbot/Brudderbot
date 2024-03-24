@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/tuicss/dist/tuicss.min.css"/>
+    <script src="node_modules/tuicss/dist/tuicss.min.js"></script>
+    <title>Vite + TS</title>
+  </head>
+  <body class="bordered white-168">
+      <div class="tui-tabs">
+            <ul>
+                <li><a class="tui-tab active" data-tab-content="tab-1-content">Main</a></li>
+                <li><a class="tui-tab" data-tab-content="tab-2-content">Exit</a></li>
+                <span class="tui-datetime tui-tab" data-tab-content="hidden-content" data-format="h:m:s a"></span>
+            </ul>
+        </div>
+      <div class="tui-tab-content tui-content" id="tab-1-content" style="display: block;">test</div>
+      <div class="tui-tab-content tui-content" id="tab-2-content" style="display: block;">exit</div>
+      <div class="tui-tab-content tui-content" id="hidden-content" style="display: block;">hidden</div>
+  </body>
+</html>
